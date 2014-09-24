@@ -19,6 +19,20 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    [self setupViews];
+}
+
+- (void)setupViews
+{
+    self.blueView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, 50, 50)];
+    self.redView = [[UIView alloc] initWithFrame: CGRectMake(50, 50, 50, 50)];
+
+    self.blueView.backgroundColor = [UIColor blueColor];
+    self.redView.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview: self.blueView];
+    [self.view addSubview: self.redView];
 }
 
 - (void)didReceiveMemoryWarning {
