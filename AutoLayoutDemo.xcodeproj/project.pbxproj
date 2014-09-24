@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB185DA619D284AE00ADB3A3 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AB185DA519D284AE00ADB3A3 /* ViewController2.m */; };
 		AB6E5C3119D27D4000A46FFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E5C3019D27D4000A46FFB /* main.m */; };
 		AB6E5C3419D27D4000A46FFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E5C3319D27D4000A46FFB /* AppDelegate.m */; };
-		AB6E5C3719D27D4000A46FFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E5C3619D27D4000A46FFB /* ViewController.m */; };
 		AB6E5C3A19D27D4000A46FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6E5C3819D27D4000A46FFB /* Main.storyboard */; };
 		AB6E5C3C19D27D4000A46FFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6E5C3B19D27D4000A46FFB /* Images.xcassets */; };
 		AB6E5C3F19D27D4000A46FFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6E5C3D19D27D4000A46FFB /* LaunchScreen.xib */; };
 		AB6E5C4B19D27D4000A46FFB /* AutoLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E5C4A19D27D4000A46FFB /* AutoLayoutDemoTests.m */; };
+		ABBE877819D38DC400107018 /* ViewControllerPureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE877719D38DC400107018 /* ViewControllerPureLayout.m */; };
+		ABBE877B19D38F8200107018 /* ViewControllerNoAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE877A19D38F8200107018 /* ViewControllerNoAutoLayout.m */; };
 		C20678CA3E6741858C651D4A /* libPods-AutoLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B570DF7955E4642B21922E7 /* libPods-AutoLayoutDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -30,21 +30,21 @@
 
 /* Begin PBXFileReference section */
 		1B570DF7955E4642B21922E7 /* libPods-AutoLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB185DA419D284AE00ADB3A3 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		AB185DA519D284AE00ADB3A3 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		AB6E5C2B19D27D4000A46FFB /* AutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6E5C2F19D27D4000A46FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6E5C3019D27D4000A46FFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB6E5C3219D27D4000A46FFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB6E5C3319D27D4000A46FFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB6E5C3519D27D4000A46FFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB6E5C3619D27D4000A46FFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB6E5C3919D27D4000A46FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB6E5C3B19D27D4000A46FFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB6E5C3E19D27D4000A46FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AB6E5C4419D27D4000A46FFB /* AutoLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6E5C4919D27D4000A46FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6E5C4A19D27D4000A46FFB /* AutoLayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutDemoTests.m; sourceTree = "<group>"; };
+		ABBE877619D38DC400107018 /* ViewControllerPureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPureLayout.h; sourceTree = "<group>"; };
+		ABBE877719D38DC400107018 /* ViewControllerPureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPureLayout.m; sourceTree = "<group>"; };
+		ABBE877919D38F8200107018 /* ViewControllerNoAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerNoAutoLayout.h; sourceTree = "<group>"; };
+		ABBE877A19D38F8200107018 /* ViewControllerNoAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerNoAutoLayout.m; sourceTree = "<group>"; };
 		C29F4F662C824780BF849E86 /* Pods-AutoLayoutDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.xcconfig"; path = "Pods/Pods-AutoLayoutDemo.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,10 +100,10 @@
 			children = (
 				AB6E5C3219D27D4000A46FFB /* AppDelegate.h */,
 				AB6E5C3319D27D4000A46FFB /* AppDelegate.m */,
-				AB6E5C3519D27D4000A46FFB /* ViewController.h */,
-				AB6E5C3619D27D4000A46FFB /* ViewController.m */,
-				AB185DA419D284AE00ADB3A3 /* ViewController2.h */,
-				AB185DA519D284AE00ADB3A3 /* ViewController2.m */,
+				ABBE877919D38F8200107018 /* ViewControllerNoAutoLayout.h */,
+				ABBE877A19D38F8200107018 /* ViewControllerNoAutoLayout.m */,
+				ABBE877619D38DC400107018 /* ViewControllerPureLayout.h */,
+				ABBE877719D38DC400107018 /* ViewControllerPureLayout.m */,
 				AB6E5C3819D27D4000A46FFB /* Main.storyboard */,
 				AB6E5C3B19D27D4000A46FFB /* Images.xcassets */,
 				AB6E5C3D19D27D4000A46FFB /* LaunchScreen.xib */,
@@ -273,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6E5C3719D27D4000A46FFB /* ViewController.m in Sources */,
-				AB185DA619D284AE00ADB3A3 /* ViewController2.m in Sources */,
+				ABBE877B19D38F8200107018 /* ViewControllerNoAutoLayout.m in Sources */,
 				AB6E5C3419D27D4000A46FFB /* AppDelegate.m in Sources */,
+				ABBE877819D38DC400107018 /* ViewControllerPureLayout.m in Sources */,
 				AB6E5C3119D27D4000A46FFB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

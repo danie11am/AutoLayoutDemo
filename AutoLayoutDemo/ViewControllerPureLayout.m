@@ -1,19 +1,19 @@
 //
-//  ViewController.m
+//  ViewControllerPureLayout.m
 //  AutoLayoutDemo
 //
 //  Created by Daniel Lam on 24/09/2014.
 //  Copyright (c) 2014 Daniel Lam. All rights reserved.
 //
 
-#import "ViewController2.h"
+#import "ViewControllerPureLayout.h"
 #import "PureLayout.h"
 
-@interface ViewController2 ()
+@interface ViewControllerPureLayout ()
 
 @end
 
-@implementation ViewController2
+@implementation ViewControllerPureLayout
 
 - (void)viewDidLoad {
     [super viewDidLoad];

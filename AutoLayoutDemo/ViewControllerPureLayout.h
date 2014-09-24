@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewControllerPureLayout.h
 //  AutoLayoutDemo
 //
 //  Created by Daniel Lam on 24/09/2014.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController2 : UIViewController
+@interface ViewControllerPureLayout : UIViewController
 
 @property UIView *blueView;
 @property UIView *redView;

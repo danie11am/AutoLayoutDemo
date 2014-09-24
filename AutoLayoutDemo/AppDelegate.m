@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import "ViewController2.h"
+#import "ViewControllerNoAutoLayout.h"
+#import "ViewControllerPureLayout.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +22,8 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-//    ViewController *vc = [[ViewController alloc] init];
-    ViewController2 *vc = [[ViewController2 alloc] init];
+//    ViewControllerNoAutoLayout *vc = [[ViewControllerNoAutoLayout alloc] init];
+    ViewControllerPureLayout *vc = [[ViewControllerPureLayout alloc] init];
     self.window.rootViewController = vc;
     
     [self.window makeKeyAndVisible];

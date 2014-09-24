@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  ViewControllerNoAutoLayout.m
 //  AutoLayoutDemo
 //
 //  Created by Daniel Lam on 24/09/2014.
 //  Copyright (c) 2014 Daniel Lam. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewControllerNoAutoLayout.h"
 
-@interface ViewController ()
+@interface ViewControllerNoAutoLayout ()
 
 @end
 
-@implementation ViewController
+@implementation ViewControllerNoAutoLayout
 
 - (void)viewDidLoad {
     [super viewDidLoad];
