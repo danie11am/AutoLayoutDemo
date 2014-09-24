@@ -17,11 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+
+    // This is important - otherwise updateViewConstraints() will not be called.
     self.view.translatesAutoresizingMaskIntoConstraints = NO;
     self.view.backgroundColor = [UIColor yellowColor];
-    
+
     [self setupViews];
 }
 
@@ -41,12 +41,12 @@
 {
     [super updateViewConstraints];
     
-    // Set 1
+    // Set 1 - Just the blue box. Note how red one doesn't appear at all.
 //    [self.blueView autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self.view withOffset:0];
 //    [self.blueView autoMatchDimension:ALDimensionHeight toDimension:ALDimensionHeight ofView:self.view withOffset:0];
 //    [self.blueView autoCenterInSuperview];
-    
-    // Set 2
+
+    // Set 2 - Blue box in center. Red box on bottom-right of blue box.
     [self.blueView autoSetDimension:ALDimensionWidth toSize:100];
     [self.blueView autoSetDimension:ALDimensionHeight toSize:100];
     [self.blueView autoCenterInSuperview];
