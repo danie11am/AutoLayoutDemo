@@ -15,6 +15,7 @@
 		AB6E5C4B19D27D4000A46FFB /* AutoLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E5C4A19D27D4000A46FFB /* AutoLayoutDemoTests.m */; };
 		ABBE877819D38DC400107018 /* ViewControllerPureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE877719D38DC400107018 /* ViewControllerPureLayout.m */; };
 		ABBE877B19D38F8200107018 /* ViewControllerNoAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE877A19D38F8200107018 /* ViewControllerNoAutoLayout.m */; };
+		ABBE877F19D3916500107018 /* ViewControllerAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE877E19D3916500107018 /* ViewControllerAutoLayout.m */; };
 		C20678CA3E6741858C651D4A /* libPods-AutoLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B570DF7955E4642B21922E7 /* libPods-AutoLayoutDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		ABBE877719D38DC400107018 /* ViewControllerPureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPureLayout.m; sourceTree = "<group>"; };
 		ABBE877919D38F8200107018 /* ViewControllerNoAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerNoAutoLayout.h; sourceTree = "<group>"; };
 		ABBE877A19D38F8200107018 /* ViewControllerNoAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerNoAutoLayout.m; sourceTree = "<group>"; };
+		ABBE877D19D3916500107018 /* ViewControllerAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAutoLayout.h; sourceTree = "<group>"; };
+		ABBE877E19D3916500107018 /* ViewControllerAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAutoLayout.m; sourceTree = "<group>"; };
 		C29F4F662C824780BF849E86 /* Pods-AutoLayoutDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.xcconfig"; path = "Pods/Pods-AutoLayoutDemo.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +105,8 @@
 				AB6E5C3319D27D4000A46FFB /* AppDelegate.m */,
 				ABBE877919D38F8200107018 /* ViewControllerNoAutoLayout.h */,
 				ABBE877A19D38F8200107018 /* ViewControllerNoAutoLayout.m */,
+				ABBE877D19D3916500107018 /* ViewControllerAutoLayout.h */,
+				ABBE877E19D3916500107018 /* ViewControllerAutoLayout.m */,
 				ABBE877619D38DC400107018 /* ViewControllerPureLayout.h */,
 				ABBE877719D38DC400107018 /* ViewControllerPureLayout.m */,
 				AB6E5C3819D27D4000A46FFB /* Main.storyboard */,
@@ -276,6 +281,7 @@
 				ABBE877B19D38F8200107018 /* ViewControllerNoAutoLayout.m in Sources */,
 				AB6E5C3419D27D4000A46FFB /* AppDelegate.m in Sources */,
 				ABBE877819D38DC400107018 /* ViewControllerPureLayout.m in Sources */,
+				ABBE877F19D3916500107018 /* ViewControllerAutoLayout.m in Sources */,
 				AB6E5C3119D27D4000A46FFB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
