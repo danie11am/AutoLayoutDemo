@@ -23,8 +23,8 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-//    ViewControllerNoAutoLayout *vc = [[ViewControllerNoAutoLayout alloc] init];
-    ViewControllerAutoLayout *vc = [[ViewControllerAutoLayout alloc] init];
+    ViewControllerNoAutoLayout *vc = [[ViewControllerNoAutoLayout alloc] init];
+//    ViewControllerAutoLayout *vc = [[ViewControllerAutoLayout alloc] init];
 //    ViewControllerPureLayout *vc = [[ViewControllerPureLayout alloc] init];
     self.window.rootViewController = vc;
     

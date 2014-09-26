@@ -56,6 +56,15 @@
     [self.redView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.blueView];
     [self.redView autoPinEdge:ALEdgeLeft toEdge:ALEdgeRight ofView:self.blueView];
 
+    // Set 3 - Same as 2 but red box's size depends on blue's one.
+//    [self.blueView autoSetDimension:ALDimensionWidth toSize:50];
+//    [self.blueView autoSetDimension:ALDimensionHeight toSize:50];
+//    [self.blueView autoCenterInSuperview];
+//    
+//    [self.redView autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self.blueView withMultiplier:0.5];
+//    [self.redView autoMatchDimension:ALDimensionHeight toDimension:ALDimensionHeight ofView:self.blueView withMultiplier:0.5];
+//    [self.redView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.blueView];
+//    [self.redView autoPinEdge:ALEdgeLeft toEdge:ALEdgeRight ofView:self.blueView];
 
 }
 
